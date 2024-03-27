@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'WorkSans-italic';
+    src: url(..);
+}
+
+:root {
+    --background-color: #FAEEFF;
+    --font-color: #2D1C2F;
+}
+
+* {
+    padding: none;
+    margin: none;
+    box-sizing: border-box;
+
+}
+
+html, body {
+    width: 100%;
+}
+
+bod
