@@ -1,22 +1,88 @@
 @font-face {
-    font-family: 'WorkSans-italic';
-    src: url(..);
+    font-family: 'WorkSans-Italic-VariableFont_wght';
+    src: url(../assets/fonts/WorkSans-Italic-VariableFont_wght.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'WorkSans-VariableFont_wght';
+    src: url(../assets/fonts/WorkSans-VariableFont_wght.ttf) format('truetype');
 }
 
 :root {
     --background-color: #FAEEFF;
     --font-color: #2D1C2F;
+    --font-01: "WorkSans-Italic-VariableFont_wght", sans-serif;
+    --font-02: "WorkSans-VariableFont_wght", sans-serif;
 }
 
 * {
-    padding: none;
-    margin: none;
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
-
+    text-decoration: none;
+    font-family: var(--font-02);
 }
 
 html, body {
     width: 100%;
+    height: 100%;
 }
 
-bod
+body {
+    background-color: var(--background-color);
+}
+
+div.background-pattern {
+    height: 40%;
+    width: 100%;
+}
+
+div.background-pattern {
+    background-image: url(../assets/images/background-pattern-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+div.container {
+    background-color: white;
+    max-width: 40.625rem;
+    max-height: 37.5rem;
+    width: 100%;
+    height: 100%;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    border-radius: 1.25rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+div.faq-page-title {
+    display: flex;
+    flex-direction: row;
+    gap: 1.25rem;
+    margin: 2.5rem 2.5rem 2.5rem 2.5rem;
+}
+
+div.faq-page-title > .title {
+    font-size: 3.5rem;
+    color: var(--font-color);
+}
+
+div.faq-page-list {
+    
+}
+
+
+
+
+
+
+
+
+
+
+
