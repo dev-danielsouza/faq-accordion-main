@@ -11,6 +11,7 @@
 :root {
     --background-color: #FAEEFF;
     --font-color: #2D1C2F;
+    --violet: #AD28EB;
     --font-01: "WorkSans-Italic-VariableFont_wght", sans-serif;
     --font-02: "WorkSans-VariableFont_wght", sans-serif;
 }
@@ -73,7 +74,33 @@ div.faq-page-title > .title {
 }
 
 div.faq-page-list {
-    
+    margin: 2.5rem 2.5rem 2.5rem 2.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+div.division {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div.division {
+    padding-bottom: 1.5rem;
+    border-bottom: 2px solid #cccccc0e;
+}
+
+.faq-page-list-item {
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: var(--font-color);
+    cursor: pointer;
+}
+
+.faq-page-list-item:hover {
+    color: var(--violet);
 }
 
 
