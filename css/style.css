@@ -103,6 +103,40 @@ div.division {
     color: var(--violet);
 }
 
+@media screen and (max-width: 670px) {
+    div.container {
+        max-width: 34.375rem;
+    }
+
+    div.faq-page-title > .title {
+        font-size: 3rem;
+    }
+
+    .faq-page-list-item {
+        font-size: 1.05rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    div.container {
+        max-width: 28.125rem;
+        max-height: 28.125rem;
+    }
+
+    div.faq-page-list {
+        gap: 1rem;
+    }
+    
+    div.faq-page-title > .title {
+        font-size: 2.5rem;
+    }
+
+    .faq-page-list-item {
+        font-size: 0.8rem;
+    }
+
+    
+}
 
 
 
